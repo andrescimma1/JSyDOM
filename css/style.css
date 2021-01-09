@@ -200,6 +200,23 @@ img {
 }
 
 /** Cursos **/
+
+.correcto
+{
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: vad(--blanco);
+    text-transform: uppercase;
+}
+.error
+{
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: vad(--blanco);
+    text-transform: uppercase;
+}
 .curso {
     padding: 3rem 0;
     border-bottom: 1px solid var(--gris);
